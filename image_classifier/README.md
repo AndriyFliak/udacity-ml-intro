@@ -1,3 +1,3 @@
-# AI Programming with Python Project
+# Image Classifier Project Project
 
-Project code for Udacity's AI Programming with Python Nanodegree program. In this project, students first develop code for an image classifier built with PyTorch, then convert it into a command line application.
+Project code for Udacity's Introduction to Machine Learning program. In this project, students first develop code for an image classifier built with PyTorch, then convert it into a command line application.
