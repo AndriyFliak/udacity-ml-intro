@@ -23,7 +23,7 @@ probs, classes = helper.predict(args.image, model, topk=int(args.top_k), device=
 # Output
 print(f"Class{' '*22}Probability")
 if args.category_names:
-    with open('cat_to_name.json', 'r') as f:
+    with open(args.category_names, 'r') as f:
         cat_to_name = json.load(f)
         classes = [cat_to_name[cl] for cl in classes]
 for p, cl in zip(probs, classes):

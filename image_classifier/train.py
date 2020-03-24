@@ -59,7 +59,7 @@ prev_layer = fc_in
 
 for unit in args.hidden_units:
     layers.append(nn.Linear(prev_layer, unit))
-    layers.append(nn.ReLU())
+    layers.append(nn.RReLU())
     layers.append(nn.Dropout(args.dropout))
     prev_layer = unit
 layers.append(nn.Linear(prev_layer, 102))
